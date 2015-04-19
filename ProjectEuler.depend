@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1422924335 source:c:\users\milos\desktop\projecteuler\src\euler\combinatorics\comb.cpp
+	"comb.h"
+
+1419310598 c:\users\milos\desktop\projecteuler\src\euler\combinatorics\comb.h
+	<vector>
+
+1429450924 source:c:\users\milos\desktop\projecteuler\src\euler\common\common.cpp
+	"common.h"
+
+1429450791 c:\users\milos\desktop\projecteuler\src\euler\common\common.h
+	<cmath>
+
+1422924572 source:c:\users\milos\desktop\projecteuler\src\euler\sieve\sieve.cpp
+	"sieve.h"
+
+1418943607 c:\users\milos\desktop\projecteuler\src\euler\sieve\sieve.h
+	<cmath>
+
+1429451111 source:c:\users\milos\desktop\projecteuler\tests\main.cpp
+	<iostream>
+	<vector>
+	"../include/euler.h"
+
+1428846347 c:\users\milos\desktop\projecteuler\include\euler.h
+	<iostream>
+	<map>
+	<string.h>
+	<iomanip>
+	<algorithm>
+	"../src/euler/sieve/sieve.h"
+	"../src/euler/common/common.h"
+	"../src/euler/combinatorics/comb.h"
+	"../src/euler/combinatorics/perm.h"
+
+1429451055 source:c:\users\milos\desktop\projecteuler\src\main.cpp
+	"macros.h"
+	"euler.h"
+
+1422925232 source:c:\users\milos\desktop\projecteuler\src\euler\combinatorics\perm.cpp
+	"Perm.h"
+
+1419310583 c:\users\milos\desktop\projecteuler\src\euler\combinatorics\perm.h
+	<vector>
+	<algorithm>
+
+1429450484 c:\users\milos\desktop\projecteuler\include\macros.h
+

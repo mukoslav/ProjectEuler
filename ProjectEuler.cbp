@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ProjectEuler" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="src/euler/comb" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add option="-DTEST" />
+					<Add directory="C:/sqlite" />
+					<Add directory="include" />
+					<Add directory="src/euler/comb" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add directory="C:/sqlite" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/euler.h" />
+		<Unit filename="include/macros.h" />
+		<Unit filename="src/euler/combinatorics/comb.cpp" />
+		<Unit filename="src/euler/combinatorics/comb.h" />
+		<Unit filename="src/euler/combinatorics/perm.cpp" />
+		<Unit filename="src/euler/combinatorics/perm.h" />
+		<Unit filename="src/euler/common/common.cpp" />
+		<Unit filename="src/euler/common/common.h" />
+		<Unit filename="src/euler/sieve/sieve.cpp" />
+		<Unit filename="src/euler/sieve/sieve.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="tests/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
